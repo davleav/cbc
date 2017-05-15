@@ -1,10 +1,5 @@
 {
-    "name" : "Classical Ballet Conservatory",
-    "slug" : "cbc",
-    "download_url" : "https://github.com/davleav/cbc/archive/master.zip",
-    "version" : "0.0.2",
-    "author" : "David Leavitt",
-    "sections" : {
-        "description" : "Custom Wordpress Theme for Classical Ballet Conservatory"
-    }
+  "version" : "0.0.2",
+  "details_url" : "https://github.com/davleav/cbc/updatedetails.html",
+  "download_url" : "https://github.com/davleav/cbc/archive/master.zip"
 }
