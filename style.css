@@ -1,0 +1,128 @@
+/*
+Theme Name: Classical Ballet Conservatory
+Author: David Leavitt
+Description: Custom Wordpress Theme for Classical Ballet Conservatory
+Version: 0.0.1
+Tags: ballet
+*/
+
+/* Embed Fonts */
+@font-face {
+    font-family: 'social_shapesregular';
+    src: url('web_fonts/social_shapes-webfont.woff2') format('woff2'),
+         url('web_fonts/social_shapes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('web_fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('web_fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('web_fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold_italic';
+    src: url('web_fonts/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('web_fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('web_fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('web_fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('web_fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('web_fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('web_fonts/opensans-semibolditalic-webfont.woff2') format('woff2'),
+         url('web_fonts/opensans-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_serif_problack';
+    src: url('web_fonts/sourceserifpro-black-webfont.woff2') format('woff2'),
+         url('web_fonts/sourceserifpro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_serif_probold';
+    src: url('web_fonts/sourceserifpro-bold-webfont.woff2') format('woff2'),
+         url('web_fonts/sourceserifpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_serif_proextralight';
+    src: url('web_fonts/sourceserifpro-extralight-webfont.woff2') format('woff2'),
+         url('web_fonts/sourceserifpro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_serif_prolight';
+    src: url('web_fonts/sourceserifpro-light-webfont.woff2') format('woff2'),
+         url('web_fonts/sourceserifpro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_serif_proregular';
+    src: url('web_fonts/sourceserifpro-regular-webfont.woff2') format('woff2'),
+         url('web_fonts/sourceserifpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_serif_prosemibold';
+    src: url('web_fonts/sourceserifpro-semibold-webfont.woff2') format('woff2'),
+         url('web_fonts/sourceserifpro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
