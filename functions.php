@@ -12,7 +12,7 @@
 require 'theme-updates/theme-update-checker.php';
 $example_update_checker = new ThemeUpdateChecker(
     'cbc',
-    'https://github.com/davleav/cbc/updatemeta.json'
+    'https://raw.githubusercontent.com/davleav/cbc/master/updatemeta.json'
 );
 
 /* fix for if Meta Box plugin is deactivated so the site won't break' */
