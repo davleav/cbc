@@ -451,6 +451,16 @@ $content = <<<CSS
         width: 220px;
         display: inline-block;
     }
+    .bio-img {
+        border: 3px solid $color_medium;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        overflow:hidden;
+    }
+    .bio-img img {
+        margin: -3px 0 0 -3px;
+        width: calc(100% + 6px);
+    }
     .bio-title {
         background: $color_medium;
         color: $color_white;
@@ -922,9 +932,6 @@ $content = <<<CSS
         }
         .bios li {
             width: 220px;
-        }
-        .bios li img {
-            width: 100%;
         }
     }
     @media screen and (max-width: 450px) {
