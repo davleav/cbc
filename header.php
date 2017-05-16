@@ -10,7 +10,6 @@ global $woo_options, $woocommerce, $wp_versoion;
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
     <script src="<?php bloginfo( 'template_directory' );?>/js/fotorama/fotorama.js"></script>
     <script type="text/javascript">
         jQuery(document).ready( function() {
