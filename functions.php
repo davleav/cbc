@@ -8,6 +8,13 @@
  *
 **/
 
+//Initialize the update checker.
+require 'theme-updates/theme-update-checker.php';
+$example_update_checker = new ThemeUpdateChecker(
+    'cbc',
+    'https://github.com/davleav/cbc/updatemeta.json'
+);
+
 /* fix for if Meta Box plugin is deactivated so the site won't break' */
 if ( ! function_exists( 'rwmb_meta' ) ) {
     function rwmb_meta( $key, $args = '', $post_id = null ) {
@@ -113,7 +120,7 @@ CONT1;
 			$content .= <<<CONT2
 						<li>
                         	<a href="$lnk" class="ui-link">
-                        		$img
+                        		<div class="bio-img">$img</div>
                         		<div class="bio-title"><strong>$name</strong>$pos</div>
                         	</a>
 						</li>
